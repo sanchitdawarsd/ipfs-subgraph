@@ -13,10 +13,6 @@ type EmployeeData @entity {
 
 type PostContent @entity {
   id: Bytes!
-  originalId: Bytes!
   hash: String!
   content: String!
-  version: Int!
-  blockNumber: String!
-  timestamp: String!
 }
