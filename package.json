@@ -4,7 +4,7 @@
   "repository": "https://github.com/graphprotocol/example-subgraph",
   "license": "MIT",
   "scripts": {
-    "auth":"graph auth 3605d47d0146e894bae8fec8a3f9a44",
+    "auth": "graph auth 3605d47d0146e894bae8fec8a3f9a44",
     "build-contract": "solc contracts/Gravity.sol --abi -o abis --overwrite && solc contracts/Gravity.sol --bin -o bin --overwrite",
     "create": "graph create example --node https://api.thegraph.com/deploy/",
     "create-local": "graph create example --node http://127.0.0.1:8020",
@@ -15,11 +15,15 @@
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "0.68.5",
-    "@graphprotocol/graph-ts": "0.33.0"
+    "@graphprotocol/graph-ts": "0.33.0",
+    "@types/node": "^22.13.1"
   },
   "dependencies": {
+    "Buffer": "^0.0.0",
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
     "truffle": "^5.0.4",
     "truffle-contract": "^4.0.5",
     "truffle-hdwallet-provider": "^1.0.4"

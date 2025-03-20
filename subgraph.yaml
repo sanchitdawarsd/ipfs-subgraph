@@ -12,7 +12,7 @@ dataSources:
     source:
       address: '0x735F005049bA24c41E4CcE7D2037fEA0e2b2124e'
       abi: CorpData
-      startBlock: 12064790
+      startBlock: 15548831
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
